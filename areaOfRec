@@ -1,0 +1,9 @@
+const prompt = require ("prompt-sync")();
+function areaOfRec() {
+    let length = parseInt(prompt("Insert the NUMBER: "))
+    let width = parseInt(prompt("Insert the NUMBER: "))
+    let Rec = length * width;
+    return Rec
+}
+let result = areaOfRec()
+console.log(result)
